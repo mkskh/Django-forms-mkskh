@@ -5,10 +5,10 @@
 ## Consists of 4 tasks:
 
 ### task1
-![t1](tasks_visualizations/task1_result.png)
+![t1](tasks_visualizations/task1_result.gif)
 
 ### task2
-![t2](tasks_visualizations/task2_result.png)
+![t2](tasks_visualizations/task2_result.gif)
 
 ### task3
 ![t3](tasks_visualizations/task3_result.gif)
