@@ -1,0 +1,14 @@
+{% extends 'base_notes.html' %}
+
+
+{% block content %}
+
+<h2>Edit Note</h2>
+
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="Submit" value="Save Changes">
+</form>
+
+{% endblock %}

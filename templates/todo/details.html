@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+
+
+{% if form %}
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit">
+    </form>
+{% endif %}
+
+{% if not form %}
+
+    <h2>To Do number {{ id }}</h2>
+    <h3>{{ todo.topic }}</h3>
+    <p>{{ todo.text }}</p>
+    <p>{{ todo.status }}</p>
+    {% if previous_note %}
+        <a href="{% url 'todo:detail_view' previous_note %}">Previous note</a>
+    {% else %}
+        <span style="color: rgb(0, 0, 0);">Previous note</span>
+    {% endif %}
+
+    {% if next_note %}
+        <a href="{% url 'todo:detail_view' next_note %}">Next note</a>
+    {% else %}
+        <span style="color: rgb(0, 0, 0);">Next note</span>
+    {% endif %}
+
+{% endif %}
+
+{% endblock %}
