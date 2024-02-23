@@ -14,5 +14,5 @@
 ![t3](tasks_visualizations/task3_result.gif)
 
 ### task4
-![t4](tasks_visualizations/task4_1_result.gif)
+![t4](tasks_visualizations/task4_result.gif)
 
