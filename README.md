@@ -1,6 +1,6 @@
 # Django-forms-mkskh Exercise-Project 
 
-## This is continuation of previous project - [Django_views-and-templates](https://github.com/mkskh/Django_views-and-templates-mkskh/tree/main) 
+## This is a continuation of previous project - [Django_views-and-templates](https://github.com/mkskh/Django_views-and-templates-mkskh/tree/main) 
 
 ## Consists of 4 tasks:
 
